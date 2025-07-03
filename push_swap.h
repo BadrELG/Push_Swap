@@ -6,7 +6,7 @@
 /*   By: badr <badr@student.42.fr>                  +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/07/02 16:46:41 by badr              #+#    #+#             */
-/*   Updated: 2025/07/02 19:12:11 by badr             ###   ########.fr       */
+/*   Updated: 2025/07/03 15:35:28 by badr             ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -37,7 +37,12 @@ int	ft_check_doubles(int *tab, int size);
 int valid_nbr(char *str);
 int	ft_ultimate_atoi(char *str, int *error_flag);
 int	count_args(int ac, char **av);
+int	*parse_args(int ac, char **av);
 static int	clean_tab(char **tab, char **tmp, int k);
 char	**split_args(int ac, char **av);
+
+// testing
+
+void print_stack(t_list *stack, char *name);
 
 #endif
